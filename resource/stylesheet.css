@@ -1,0 +1,23 @@
+.root{
+	-fx-background-image: url("Untitled.png");
+-fx-alignment: CENTER;
+-fx-background-size:435,345;
+
+}
+.button {
+    -fx-font: bold italic 11pt "Arial";
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.combo{
+	
+-fx-opacity:80%;
+   	
+    
+}

@@ -1,0 +1,115 @@
+.root{
+	-fx-background-image: url("hoofdm.png");
+-fx-alignment: CENTER;
+
+}
+.buttonz {
+	-fx-background-image: url("Untitled.png");
+    -fx-font: bold italic 11pt "Arial";
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+.car{
+	-fx-background-image: url("car.png");
+    -fx-background-size: 70,70;
+    
+}
+.car:hover{
+ -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.65), 10, 0.5, 0.0, 0.0);
+
+        }
+.klantToevoegen{
+		-fx-background-image: url("klantToevoegen.png");
+    -fx-background-size: 70,70;
+}
+.klantToevoegen:hover{
+	 -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.65), 10, 0.5, 0.0, 0.0);
+	
+}
+.klantBewerken{
+		-fx-background-image: url("klantBewerken.png");
+    -fx-background-size: 70,70;
+}
+.klantBewerken:hover{
+	 -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.65), 10, 0.5, 0.0, 0.0);
+	
+}
+.klantZoeken{
+		-fx-background-image: url("klantZoeken.png");
+    -fx-background-size: 70,70;
+}
+.klantZoeken:hover{
+	 -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.65), 10, 0.5, 0.0, 0.0);
+	
+}
+
+
+.artikelenBestellen{
+		-fx-background-image: url("artikelenBestellen.png");
+    -fx-background-size: 70,70;
+}
+.artikelenBestellen:hover{
+	 -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.65), 10, 0.5, 0.0, 0.0);
+	
+}
+.werkplaats{
+		-fx-background-image: url("werkplaats.png");
+    -fx-background-size: 70,70;
+}
+.werkplaats:hover{
+	 -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.65), 10, 0.5, 0.0, 0.0);
+	
+}
+
+.werkorderWijzigen{
+	-fx-background-image: url("wijzigen_werkorder.png");
+    -fx-background-size: 70,70;
+
+}
+.werkorderWijzigen:hover{
+	 -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.65), 10, 0.5, 0.0, 0.0);
+	
+}
+
+.artikelen{
+	-fx-background-image: url("products.jpg");
+    -fx-background-size: 70,70;
+
+}
+.artikelen:hover{
+	 -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.65), 10, 0.5, 0.0, 0.0);
+	
+}
+
+.bestellingen{
+	-fx-background-image: url("purchase_order.png");
+    -fx-background-size: 70,70;
+
+}
+.bestellingen:hover{
+	 -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.65), 10, 0.5, 0.0, 0.0);
+	
+}
+.gebruikteartikelen{
+	-fx-background-image: url("remschijf.png");
+    -fx-background-size: 70,70;
+
+}
+.gebruikteartikelen:hover{
+	 -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.65), 10, 0.5, 0.0, 0.0);
+	
+}
+
+.exit{
+		-fx-background-image: url("exit.png");
+    -fx-background-size: 70,70;
+}
+.exit:hover{
+		 -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.65), 10, 0.5, 0.0, 0.0)
+	
+}
