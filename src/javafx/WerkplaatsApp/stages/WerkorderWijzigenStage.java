@@ -150,7 +150,7 @@ public class WerkorderWijzigenStage extends Stage {
 		kieswerko.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent e) {
 				Werkorder w = (Werkorder) cb2.getValue();
-				Auto a = w.getDeAuto();
+				Auto a = w.getAuto();
 				Klant k = a.getDeKlant();
 				tfken.setText(a.getKenteken());
 				tfmk.setText(a.getMerk());

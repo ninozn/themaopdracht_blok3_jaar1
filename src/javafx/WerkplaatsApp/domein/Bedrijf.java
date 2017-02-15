@@ -54,7 +54,7 @@ public class Bedrijf {
 	public Werkorder zoekWerkorder(int nr){			//werkorder zoeken op werkordernummer
 		Werkorder gezochte = null;
 		for(Werkorder w : deWerkorders){
-			if(w.getWONummer() == nr){
+			if(w.getWerkorderNummer()== nr){
 				gezochte = w;
 			}
 		}

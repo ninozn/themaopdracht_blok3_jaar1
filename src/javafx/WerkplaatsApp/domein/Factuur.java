@@ -34,7 +34,7 @@ public class Factuur implements Serializable{
 	}
 	
 	public double berekenTotaalprijs() { //methoden om de totaalprijs te berekenen
-		return ((manuren * deMonteur.getUurloon())+deOrder.getArtikelenPrijs());
+		return ((manuren * deMonteur.getUurloon())+deOrder.getTotaalPrijsArtikelen());
 	}
 
 	public Klant getDeKlant() {
