@@ -33,7 +33,7 @@ public class WerkplaatsplanningStage extends Stage {
     public WerkplaatsplanningStage(Bedrijf hetBedrijf2) {
         hetBedrijf = hetBedrijf2;
 
-        Werkorder w = new Werkorder(hetBedrijf.werkordernummer(), "");
+        Werkorder w = new Werkorder(hetBedrijf.getNextWerkOrderNummer(), "");
 
         Label labwo = new Label("Werkorder:	");
         labwo.setPrefWidth(100);
@@ -141,7 +141,7 @@ public class WerkplaatsplanningStage extends Stage {
         dp.setDayCellFactory(dayCellFactory);
         dp.setDisable(true);
         ComboBox cb = new ComboBox();
-        ArrayList<Monteur> Monteurs = hetBedrijf.geefAlleMonteurs();
+        ArrayList<Monteur> Monteurs = hetBedrijf.geefMonteurs();
         for (Monteur m : Monteurs) {
             cb.getItems().add(m);
         }

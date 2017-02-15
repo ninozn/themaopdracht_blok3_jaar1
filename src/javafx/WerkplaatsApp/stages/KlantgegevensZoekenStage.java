@@ -43,7 +43,7 @@ public class KlantgegevensZoekenStage extends Stage {
 			public void handle(ActionEvent e) {
 				String s = tfnr.getText();
 				int i = Integer.parseInt(s);
-				Klant gezochteKlant = hetBedrijf.zoekKlant(i);
+				Klant gezochteKlant = hetBedrijf.zoekKlantOpNummer(i);
 				if (gezochteKlant != null) {
 					tfnr.setText("");
 					KlantBewerkenStage kbs = new KlantBewerkenStage(stage,

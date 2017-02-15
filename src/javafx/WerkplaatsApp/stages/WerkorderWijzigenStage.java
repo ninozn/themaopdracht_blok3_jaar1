@@ -104,7 +104,7 @@ public class WerkorderWijzigenStage extends Stage {
 		annuleer.setOnAction(e -> this.close());
 		ComboBox cb = new ComboBox();
 		ComboBox cb2 = new ComboBox();
-		ArrayList<Monteur> Monteurs = hetBedrijf.geefAlleMonteurs();
+		ArrayList<Monteur> Monteurs = hetBedrijf.geefMonteurs();
 		for (Monteur m : Monteurs) {
 			cb.getItems().add(m);
 		}
@@ -129,7 +129,7 @@ public class WerkorderWijzigenStage extends Stage {
 				if (cb.getValue() instanceof Monteur && cb.getValue() != null) {
 					Monteur z = (Monteur) cb.getValue();
 					ArrayList<Werkorder> werkorders = hetBedrijf
-							.geefAlleWerkorders(z);
+							.getWerkorders(z);
 					if (werkorders != null) {
 						for (Werkorder w : werkorders) {
 							cb2.getItems().add(w);

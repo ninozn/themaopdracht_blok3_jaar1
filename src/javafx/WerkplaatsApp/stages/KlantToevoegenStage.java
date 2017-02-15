@@ -36,7 +36,7 @@ public class KlantToevoegenStage extends Stage {
 		top.setPadding(new Insets(5, 0, 0, 10));
 		labID = new Label("Klantnr: ");
 		labID.setPrefWidth(90);
-		labID2 = new Label("" + hetBedrijf.klantnummer());
+		labID2 = new Label("" + hetBedrijf.getNextKlantNummer());
 		top.getChildren().addAll(labID, labID2);
 
 		VBox labels = new VBox(13);

@@ -73,7 +73,7 @@ public class GebruikteArtikelenStage extends Stage {
 			public void handle(ActionEvent e){
         		String s = tfnr.getText();
         		int i = Integer.parseInt(s);
-        		Artikel a = hetBedrijf.zoekArtikel(i);
+        		Artikel a = hetBedrijf.zoekArtikelOpNummer(i);
         		if(a != null){
         			String z = tfant.getText();
         			int zi = Integer.parseInt(z);
