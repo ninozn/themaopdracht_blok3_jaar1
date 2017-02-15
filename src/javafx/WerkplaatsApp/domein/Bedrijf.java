@@ -1,7 +1,6 @@
 package javafx.WerkplaatsApp.domein;
 import java.util.*;
 
-import javafx.WerkplaatsApp.domein.Artikel;
 
 import java.io.*;
 
