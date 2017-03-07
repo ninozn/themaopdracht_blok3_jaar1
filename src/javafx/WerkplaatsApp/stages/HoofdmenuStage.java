@@ -2,10 +2,8 @@ package javafx.WerkplaatsApp.stages;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.URI;
 
 import javafx.WerkplaatsApp.domein.Bedrijf;
-import javafx.WerkplaatsApp.domein.Klant;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -14,15 +12,10 @@ import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.Button;
-import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.FlowPane;
-import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
 public class HoofdmenuStage extends Application {

@@ -1,7 +1,6 @@
 package javafx.WerkplaatsApp.domein;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 
 public class Factuur implements Serializable{
 	private double manuren;

@@ -1,7 +1,5 @@
 package javafx.WerkplaatsApp.stages;
 
-import java.awt.FlowLayout;
-import java.io.IOException;
 import java.util.Optional;
 
 import javafx.WerkplaatsApp.domein.Bedrijf;
