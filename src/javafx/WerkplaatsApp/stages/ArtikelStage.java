@@ -7,7 +7,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.layout.FlowPane;
 import javafx.stage.Stage;
-
+ 
 public class ArtikelStage extends Stage{
 	private Bedrijf hetBedrijf;
 	
