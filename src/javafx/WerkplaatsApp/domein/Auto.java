@@ -94,9 +94,8 @@ public class Auto implements Serializable {
 	}
 	public String toString() {
 		return "Auto met kenteken:" + kenteken + " van het merk: " + merk
-				+ " en model " + model + " heeft " + afspraakGemaakt != null
-				|| afspraakGemaakt != false ? " geen afspraak gemaakt en is "
+				+ " en model " + model + " heeft " + (afspraakGemaakt != false ? " geen afspraak gemaakt en is "
 				+ laatsteBezoek + " voor het laatst geweest"
-				: " een afspraak gemaakt op " + volgendOnderhoud + "";
+				: " een afspraak gemaakt op " + volgendOnderhoud + "");
 	}
 }
